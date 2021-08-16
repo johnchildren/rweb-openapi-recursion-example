@@ -1,0 +1,10 @@
+[package]
+name = "rweb-openapi-recursion-example"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rweb = { version = "0.13", features = ["openapi"] }
+serde = "1.0"
